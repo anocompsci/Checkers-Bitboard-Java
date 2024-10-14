@@ -28,7 +28,7 @@ class CheckersGame {
 
     public void startGame() {
         System.out.println("To calculate position, count manually, or use formula \"position = row x 8 + column\"");
-        while (redPieces != emptyGame || blackPieces != emptyGame) {
+        while (redPieces != emptyGame || blackPieces != emptyGame || redKings != emptyGame || blackKings != emptyGame) {
 
             printOut();
 
